@@ -1351,6 +1351,7 @@ const S = {
     gap: 24, flexWrap: "wrap",
   },
   brand: { display: "flex", alignItems: "center", gap: 16, minWidth: 0 },
+  logo: { height: 32, width: "auto", display: "block", flexShrink: 0 },
   brandDivider: { width: 1, height: 24, background: "rgba(255,255,255,0.25)", flexShrink: 0 },
   brandLabel: { fontFamily: fonts.display, fontSize: 17, fontWeight: 400, fontStyle: "italic", color: "rgba(255,255,255,0.85)", whiteSpace: "nowrap" },
 
